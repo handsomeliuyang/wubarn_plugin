@@ -38,7 +38,6 @@ project.logger.lifecycle("111111 $rootDir");
 
 rootProject.allprojects {
     repositories {
-        maven {url "http://artifactory.58corp.com:8081/artifactory/android-public"}
         maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         maven{ url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
         google()
